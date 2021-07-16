@@ -8,4 +8,9 @@ function CardGame() {
     `
 }
 
+const $cards = document.querySelectorAll(".card-game");
+$cards.forEach(card => card.addEventListener('click', () => {
+    card.insertAdjacentHTML("beforeend", "<p>olá!</p>")
+}))
+
 export default CardGame
