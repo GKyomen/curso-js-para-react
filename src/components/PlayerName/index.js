@@ -1,10 +1,10 @@
 import "./style.css"
 
-function PlayerName(playerNumber) {
+function PlayerName(name) {
     return `
-        <span class="player-name">
-            Player ${playerNumber}    
-        </span>
+        <p class="player-name">
+            ${name}    
+        </p>
     `
 }
 
